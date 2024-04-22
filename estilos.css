@@ -122,10 +122,12 @@ nav ul li {
     position: relative;
     display: flex;
     grid-template-columns: repeat(4,1fr);
+    max-width: 100%;
     width: 380px;
     height: 380px;
     padding: 20px;
     margin-top: 10px;
+    
   
 }
 
@@ -313,7 +315,7 @@ hr{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
 
     header{
         flex-direction: column;
