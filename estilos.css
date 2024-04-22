@@ -369,6 +369,7 @@ hr{
         display: block;
         border: 1px solid black;
         border-radius: 5px;
+        max-width: 100%;
         width: 30px;
         height: 30px;
         line-height: 30px;
@@ -377,7 +378,7 @@ hr{
         user-select: none;
         background-color: rgb(246, 246, 246);
         position: relative;
-        left: 200px;
+        left: 170px;
     }
 
     ul {
