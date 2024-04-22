@@ -386,7 +386,7 @@ hr{
         padding: 0;
         margin: 0;
         display: none; /* Oculta la lista por defecto */
-        text-align: right;
+        text-align: left;
       
     }
 
@@ -405,4 +405,3 @@ hr{
         order: -1;
     }
 }
-
