@@ -1,0 +1,405 @@
+header{
+    display: flex;
+    min-height: 70 px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(251, 201, 226);
+    
+        
+}
+body{
+    background-color: aliceblue;
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: none;
+}
+
+header ul {
+    font-size:large
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    justify-content: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+h2 {
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3{
+    
+    text-align: center;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    margin-right: 10 px;
+}
+
+.logo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.nombre-logo{
+    margin-top: 50px;
+}
+
+.datos{
+width: 100%;
+height: 50px;
+background-color: antiquewhite;
+font-size: 20px;
+text-align: center;
+overflow: hidden;
+white-space: nowrap;
+font-weight: 1000;
+
+
+}
+
+img srita Maraton
+
+/* Define el estilo inicial de la lista */
+nav {
+    text-align: center; /* Centra el contenido del nav */
+    justify-content: center;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0; /* Agrega margen arriba y abajo */
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: inline-block; /* Muestra los elementos en línea */
+    transition: transform 0.3s ease;
+    margin-right: 50px; /* Agrega espacio entre elementos */
+    /*transform-origin: left; /* Establece el origen de la transformación */
+}
+
+/* Aplica el efecto de escala al pasar el mouse */
+    nav ul li:hover {
+     transform: scale(1.5);
+     color: white;
+}
+
+.reels {
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+  
+
+}
+
+.reels img{
+ 
+    transition: 500 ms;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    width: 380px;
+    height: 380px;
+    padding: 20px;
+    margin-top: 10px;
+  
+}
+
+.reels img:hover {
+    transform: scale(1.15);
+}
+
+figure{
+    margin: 10px;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-left: auto;
+
+}
+
+.footer{
+    margin-top: 25px;
+    display: flex;
+    min-height: 70 px;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(251, 201, 226);
+    
+}
+
+.contenedor-imagen{
+    margin-left: auto;
+    padding: 5px;
+}
+
+.quien_soy{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.texto_principal{
+    width: 100%;
+    border-bottom: 10px solid grey;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: x-large;
+    margin-top: 10px;
+    
+    
+}
+
+.metricas_titulo{
+    font-size: 45px;
+}
+
+.metricas{
+    display: flex;
+    
+}
+
+.metricas_principales{
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    color: rgb(131, 17, 17)
+    
+}
+
+.metricas_principales h2{
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.metricas_principales h3{
+    margin-top: 0px;
+}
+
+.metricas2{
+    display: flex;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.metricas_secundarias{
+    width: 30%;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    color: rgb(131, 17, 17)
+}
+
+.metricas_secundarias img{
+    width: 100px;
+    height: 100px;
+}
+
+.metricas_secundarias h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.metricas_edad{
+    width: 30%;
+    color: rgb(70, 70, 199);
+    text-align: center; 
+      
+}
+
+.metricas_edad h2{
+    font-size: 80px;
+}
+
+
+
+.metricas_paises{
+    width: 30%;
+    color: rgb(214, 94, 67);
+    text-align: center; 
+}
+
+.metricas_alcance{
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    border-top: 10px solid grey
+}
+
+.metricas_alcance h2{
+    font-size: 50px;
+}
+
+.intro_review{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+hr{
+    width: 50%;
+    height: 5px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.reviews{
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos de manera que estén alineados en la parte superior */
+    padding: 20px;
+    flex-direction: row;
+}
+
+
+.imagen_review{
+    margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+    flex-shrink: 0;
+}
+
+.imagen_review img{
+    max-width: 100%; /* Para asegurar que la imagen se ajuste al ancho del contenedor */
+    height: 500px;   
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.reviews p{
+    text-align: justify;
+    max-width: 100%;
+    font-size: x-large;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    header{
+        flex-direction: column;
+        padding: 10 px 0px;
+        text-align: justify;
+        justify-content: space-between;
+    }
+    
+    .reels{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+   
+    
+    nav ul {
+        margin: 10px 0; /* Reducir el margen en pantallas pequeñas */
+    }
+    nav ul li {
+        display: block; /* Cambia a bloques en pantallas pequeñas */
+        margin: 5px auto; /* Centra los elementos y agrega espacio entre ellos */
+        position: relative;
+        left: 150px;
+        
+    }
+
+    .metricas_titulo h1 {
+        font-size: 24px; /* Reducir el tamaño del título en dispositivos móviles */
+    }
+
+    .metricas_principales h2,
+    .metricas_principales h3,
+    .metricas_secundarias h3,
+    .metricas_edad h2,
+    .metricas_paises h2,
+    .metricas_alcance h2 {
+        font-size: 16px; /* Reducir el tamaño del texto en dispositivos móviles */
+    
+    }
+
+    .metricas2 {
+        flex-direction: column; /* Cambiar el diseño a una columna en dispositivos móviles */
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+ 
+
+    label {                      /* dibuja la etiqueta ☰  con formato botón */
+        box-sizing: border-box;
+        display: block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        background-color: rgb(246, 246, 246);
+        position: relative;
+        left: 200px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: none; /* Oculta la lista por defecto */
+        text-align: right;
+      
+    }
+
+    #menu:checked + label + ul {
+        display: block;
+    }
+        
+    .reviews {
+        
+        flex-direction: column; /* Cambia la dirección del flexbox a columna en dispositivos más pequeños */
+    
+    }
+
+    .imagen_review {
+        margin-top: 0; /* Elimina el margen superior en dispositivos más pequeños */
+        order: -1;
+    }
+}
+
